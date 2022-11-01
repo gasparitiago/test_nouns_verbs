@@ -14,7 +14,7 @@ async def read_item(message):
     for token in doc:
         result.append({token.text: token.pos_})
 
-    return json(result)
+    return result
 
 @app.get("/")
 async def root():

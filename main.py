@@ -18,5 +18,4 @@ async def read_item(message):
 
 @app.get("/")
 async def root():
-    return """Info: Write a phrase in the URL to get a response.
-    """
+    return """Info: Write a phrase in the URL to get a response."""
